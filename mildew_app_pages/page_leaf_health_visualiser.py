@@ -13,7 +13,7 @@ import random
 def page_leaf_health_visualiser_body():
     st.write("### Leaf Health Visualiser")
     st.info(
-        f"*The client is interested in conducting a study to visually "
+        f"* The client is interested in conducting a study to visually "
         f"differentiate a healthy cherry leaf from one with powdery mildew.")
 
     version = 'v1'
@@ -28,12 +28,12 @@ def page_leaf_health_visualiser_body():
             f"warning text")
 
         st.image(avg_powdery_mildew,
-                 caption='Leaf With Powdery Mildew - Average and Variability')
+                 caption='Leaf Presenting Powdery Mildew - Average and Variability')
         st.image(avg_healthy,
                  caption='Healthy Leaf - Average and Variability')
         st.write("---")
 
-    if st.checkbox("Differences between average leaf blighted by mildew and average healthy leaf"):
+    if st.checkbox("Differences between average leaf presenting powdery mildew and average healthy leaf"):
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
 
         st.warning(
