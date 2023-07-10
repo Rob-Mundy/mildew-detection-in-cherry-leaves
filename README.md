@@ -24,7 +24,7 @@ You can safely delete the Gitpod Template Instructions section of this README.md
 
 1. Open a new terminal and <code>pip3 install -r requirements.txt</code>
 
-1. In the terminal type <code>pip3 install jupyter</code>
+1. In the terminal type <code><pip3 install jupyter/code>
 
 1. In the terminal type <code>jupyter notebook --NotebookApp.token='' --NotebookApp.password=''</code> to start the jupyter server.
 
