@@ -78,8 +78,33 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Dashboard Design
 
-- List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
-- Finally, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project, you were confident you would use a given plot to display an insight, but later, you chose another plot type).
+### Page 1 - Project Executive Summary
+
+- Succinct project summary
+  - General Information
+    - According to [The Royal Horticultural Society](https://www.rhs.org.uk/disease/powdery-mildews)
+      powdery mildews are a group of related fungi which attack a wide range
+      of plants, causing a white, dusty coating on leaves, stems and flowers.
+    - The fungus sends feeding structures into the surface cells, greatly
+      reducing the vigour of the plant.
+    - If left unchecked, the fungus often spreads to a plant's fruits,
+      compromising the quality.
+    - Manual observations and visual verifications are currently required
+      taking an average of 30 mins per tree.
+  - Project Dataset
+    - The available dataset contains 4208 images provided by the client from their manual observations, with equal quantities of both healthy and mildew-infected leaves.
+  - Link to additional information in project README file
+  - Business Requirements
+    - 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+    - 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+
+### Page 2 - Leaf Health Visualiser
+
+### Page 3 - Mildew Detector
+
+### Page 4 - Project Hypothesis and Validation
+
+### Page 5 - ML Performance Metrics
 
 ## Unfixed Bugs
 
