@@ -5,16 +5,19 @@ from mildew_app_pages.multi_page import MultiPage
 from mildew_app_pages.page_executive_summary import page_executive_summary_body
 from mildew_app_pages.page_project_hypothesis import page_project_hypothesis_body
 from mildew_app_pages.page_leaf_health_visualiser import page_leaf_health_visualiser_body
+from mildew_app_pages.page_ml_performance_metrics import page_ml_performance_metrics_body
 from mildew_app_pages.page_mildew_detector import page_mildew_detector_body
 
 
-app = MultiPage(app_name="Mildew Detector")  # Create an instance of the app
+# Create app instance
+app = MultiPage(app_name="Mildew Detector")
 
 # Add app pages using .add_page()
 app.add_page("Executive Summary", page_executive_summary_body)
 app.add_page("Project Hypothesis and Validation", page_project_hypothesis_body)
 app.add_page("Leaf Health Visualiser", page_leaf_health_visualiser_body)
+app.add_page("ML Performance Metrics", page_ml_performance_metrics_body)
 app.add_page("Mildew Detector", page_mildew_detector_body)
 
-
-app.run()  # Run the  app
+# Run app
+app.run()
