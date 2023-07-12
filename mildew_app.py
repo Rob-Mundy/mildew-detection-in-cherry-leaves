@@ -14,10 +14,11 @@ app = MultiPage(app_name="Mildew Detector")
 
 # Add app pages using .add_page()
 app.add_page("Executive Summary", page_executive_summary_body)
-app.add_page("Project Hypothesis and Validation", page_project_hypothesis_body)
 app.add_page("Leaf Health Visualiser", page_leaf_health_visualiser_body)
-app.add_page("ML Performance Metrics", page_ml_performance_metrics_body)
 app.add_page("Mildew Detector", page_mildew_detector_body)
+app.add_page("Project Hypothesis and Validation", page_project_hypothesis_body)
+app.add_page("ML Performance Metrics", page_ml_performance_metrics_body)
+
 
 # Run app
 app.run()
