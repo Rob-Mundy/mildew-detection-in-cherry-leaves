@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def page_project_hypothesis_body():
-    st.write("Project Hypothesis and Validation")
+    st.write("### Project Hypothesis and Validation")
 
     st.success(
         f"* We suspect that leaves affected by mildew display identifiable "
