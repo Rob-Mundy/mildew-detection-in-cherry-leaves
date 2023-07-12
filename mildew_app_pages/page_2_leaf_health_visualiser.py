@@ -18,27 +18,17 @@ def page_leaf_health_visualiser_body():
 
     version = 'v1'
     if st.checkbox("Difference between average and variability image"):
-
         avg_healthy = plt.imread(f"outputs/{version}/avg_var_healthy.png")
         avg_powdery_mildew = plt.imread(
             f"outputs/{version}/avg_var_powdery_mildew.png")
-
-        st.warning(
-            f"* warning text "
-            f"warning text")
-
         st.image(avg_powdery_mildew,
                  caption='Leaf Presenting Powdery Mildew - Average and Variability')
         st.image(avg_healthy,
                  caption='Healthy Leaf - Average and Variability')
         st.write("---")
 
-    if st.checkbox("Differences between average leaf presenting powdery mildew and average healthy leaf"):
+    if st.checkbox("Difference between average leaf presenting powdery mildew and average healthy leaf"):
         diff_between_avgs = plt.imread(f"outputs/{version}/avg_diff.png")
-
-        st.warning(
-            f"* Some warning text"
-            f"more warning text.")
         st.image(diff_between_avgs, caption='Difference between average images')
 
     if st.checkbox("Image Montage"):

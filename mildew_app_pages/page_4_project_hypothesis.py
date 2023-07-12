@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def page_project_hypothesis_body():
     st.write("### Project Hypothesis and Validation")
 
-    st.success(
+    st.info(
         f"* We suspect that leaves affected by mildew display identifiable "
         f"traits, typically in the form of white, powdery patches of fungus "
         f"that spread on either the upper or lower surfaces of the leaf. These"

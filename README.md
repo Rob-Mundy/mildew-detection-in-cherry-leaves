@@ -64,13 +64,23 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Hypothesis and Validation
 
+### Hypothesis
+
 - We suspect that leaves affected by mildew display identifiable traits, typically in the form of white, powdery patches of fungus that spread on either the upper or lower surfaces of the leaf. These distinct indicators will be adequate for training a machine learning model as they effectively distinguish between infected leaves and those that are fungus-free.
 - Conducting an average image analysis can assist in further investigating the matter.
 - We propose that employing binary classification would be the most suitable approach for discerning the distinction between infected and healthy leaves.
 
+### Validation
+
 ## The rationale to map the business requirements to the Data Visualisations and ML tasks
 
-- List your business requirements and a rationale to map them to the Data Visualisations and ML tasks.
+- Business Requirement 1: The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+  - "Mean" and "standard deviation" images will be displayed for healthy leaves and those presenting powdery mildew.
+  - The difference between an average healthy leaf and the average mildew-infected leaf will be displayed.
+  - An image montgage will follow for the selected label: healthy / powdery_mildew.
+- Business Requirement 2: The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+  - We want to predict whether a random sample leaf image is presenting powdery mildew or is healthy.
+  - We want to build a ML model with binary classification and report on the results.
 
 ## ML Business Case
 
@@ -100,9 +110,30 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 2 - Leaf Health Visualiser
 
+- To satisy business requirement 1: The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+  - Checkbox 1 - Difference between average and variability image
+  - Checkbox 2 - Difference between average leaf presenting powdery mildew and average healthy leaf
+  - Checkbox 3 - Image Montage
+
 ### Page 3 - Mildew Detector
 
+- To satisy business requirement 2: The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+  - Link to dataset where user can download a random sample of images for live prediction.
+  - File uploader widget for user to upload sample images for live prediction.
+    - Sample image(s) displayed with accompanying image dimensions.
+  - The outcome of predictive analysis stating the likelihood of sample leaf exhibiting mildew or being in a healthy state.
+    - Propability results in graphical form.
+  - Table containing sample name and prediction.
+  - Link to download csv file of predictions performed during session.
+
 ### Page 4 - Project Hypothesis and Validation
+
+- Project Hypothesis
+  - We suspect that leaves affected by mildew display identifiable traits, typically in the form of white, powdery patches of fungus that spread on either the upper or lower surfaces of the leaf. These distinct indicators will be adequate for training a machine learning model as they effectively distinguish between infected leaves and those that are fungus-free.
+  - Conducting an average image analysis can assist in further investigating the matter.
+  - We propose that employing binary classification would be the most suitable approach for discerning the distinction between infected and healthy leaves.
+- Validation
+  - xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ### Page 5 - ML Performance Metrics
 
@@ -131,14 +162,11 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Credits
 
-- In this section, you need to reference where you got your content, media and from where you got extra help. It is common practice to use code from other repositories and tutorials. However, it is necessary to be very specific about these sources to avoid plagiarism.
-- You can break the credits section up into Content and Media, depending on what you have included in your project.
+- Given their busiess case similarities, Walkthrough Project 1: Malaria Detector was followed to conduct the study, build the ML model and construct the Streamlit site.
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A.
-- Instructions on how to implement form validation on the Sign-Up page were taken from [Specific YouTube Tutorial](https://www.youtube.com/).
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- General information about powdery mildew in the Executive Summary was sourced from [The Royal Horticultural Society](https://www.rhs.org.uk/disease/powdery-mildews)
 
 ### Media
 
