@@ -62,7 +62,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 - 1 - The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
 - 2 - The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
 
-## Hypothesis and how to validate?
+## Hypothesis and Validation
 
 - We suspect that leaves affected by mildew display identifiable traits, typically in the form of white, powdery patches of fungus that spread on either the upper or lower surfaces of the leaf. These distinct indicators will be adequate for training a machine learning model as they effectively distinguish between infected leaves and those that are fungus-free.
 - Conducting an average image analysis can assist in further investigating the matter.

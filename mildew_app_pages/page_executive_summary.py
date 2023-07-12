@@ -18,7 +18,7 @@ def page_executive_summary_body():
         f"* If left unchecked, the fungus often spreads to a plant's fruits, "
         f"compromising the quality. \n"
         f"* Manual observations and visual verifications are currently required"
-        f" , taking an average of 30 mins per tree.\n\n"
+        f", taking an average of 30 mins per tree.\n\n"
         f"**Project Dataset**\n"
         f"* The [available dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) "
         f"contains 4208 images provided by the client from their manual "
