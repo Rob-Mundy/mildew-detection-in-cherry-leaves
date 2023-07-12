@@ -2,11 +2,11 @@ import streamlit as st
 from mildew_app_pages.multi_page import MultiPage
 
 # load page scripts
-from mildew_app_pages.page_executive_summary import page_executive_summary_body
-from mildew_app_pages.page_project_hypothesis import page_project_hypothesis_body
-from mildew_app_pages.page_leaf_health_visualiser import page_leaf_health_visualiser_body
-from mildew_app_pages.page_ml_performance_metrics import page_ml_performance_metrics_body
-from mildew_app_pages.page_mildew_detector import page_mildew_detector_body
+from mildew_app_pages.page_1_executive_summary import page_executive_summary_body
+from mildew_app_pages.page_2_leaf_health_visualiser import page_leaf_health_visualiser_body
+from mildew_app_pages.page_3_mildew_detector import page_mildew_detector_body
+from mildew_app_pages.page_4_project_hypothesis import page_project_hypothesis_body
+from mildew_app_pages.page_5_ml_performance_metrics import page_ml_performance_metrics_body
 
 
 # Create app instance
