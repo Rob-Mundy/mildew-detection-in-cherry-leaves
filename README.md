@@ -87,24 +87,29 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 5 - ML Performance Metrics
 
-## Unfixed Bugs
+## Bugs
 
-- You will need to mention unfixed bugs and why they were unfixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a significant variable for consideration, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+### Fixed Bugs
+
+- The depolyed app's Mildew Detector was producing the following error when attempting to predict on new images: **AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'**.This ws resolved by specifying a different version **Pillow==9.5.0** in the requirements.txt file as instructed in this [StackOverflow](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias) article.
+
+### Unfixed Bugs
+
+- There are no unfixed bugs
 
 ## Deployment
 
 ### Heroku
 
-- The App live link is: https://YOUR_APP_NAME.herokuapp.com/
-- Set the runtime.txt Python version to a [Heroku-20](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version.
-- The project was deployed to Heroku using the following steps.
+- The App live link is: [rm-mildew-app](https://rm-mildew-app-4f738e29404d.herokuapp.com/)
+- The project was deployed to Heroku using the following steps:
 
-1. Log in to Heroku and create an App
+1. Create new app via CLI so that heroku-20 stack is specified which is compatible with python 3.8.12: $ heroku create rm-mildew-app --stack heroku-20 --region eu
 2. At the Deploy tab, select GitHub as the deployment method.
-3. Select your repository name and click Search. Once it is found, click Connect.
-4. Select the branch you want to deploy, then click Deploy Branch.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
-6. If the slug size is too large then add large files not required for the app to the .slugignore file.
+3. Select repository name and click Search. Once it is found, click Connect.
+4. Select Main and Deploy Branch.
+5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access App.
+6. Add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis and Machine Learning Libraries
 
@@ -120,8 +125,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Media
 
-- The photos used on the home and sign-up page are from This Open-Source site.
-- The images used for the gallery page were taken from this other open-source site.
+- The images used for the dataset were sourced from this [Kaggle](https://www.kaggle.com/codeinstitute/cherry-leaves) site.
 
 ## Acknowledgements (optional)
 
