@@ -2,3 +2,5 @@ inputs/mildew_dataset/test
 inputs/mildew_dataset/train
 outputs/v1/mildew_detector_basic_model.h5
 outputs/v2
+README.md
+jupyter_notebooks/Tuning.ipynb
