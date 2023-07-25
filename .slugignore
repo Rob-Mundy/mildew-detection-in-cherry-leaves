@@ -1,6 +1,6 @@
 inputs/mildew_dataset/test
 inputs/mildew_dataset/train
 outputs/v1/mildew_detector_basic_model.h5
+outputs/v1/basic_model_training_acc.png
+outputs/v1/basic_model_training_losses.png
 outputs/v2
-README.md
-jupyter_notebooks/Tuning.ipynb
