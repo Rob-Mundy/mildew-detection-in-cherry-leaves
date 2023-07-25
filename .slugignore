@@ -1,4 +1,8 @@
-inputs/mildew_dataset/validation
-inputs/mildew_dataset/train
+inputs/mildew_dataset/cherry-leaves/test
+inputs/mildew_dataset/cherry-leaves/train
 outputs/v1/mildew_detector_basic_model.h5
 outputs/v2
+README.md
+.gitpod.dockerfile
+.gitpod.yml
+mildew_app_pages/__pycache__*
