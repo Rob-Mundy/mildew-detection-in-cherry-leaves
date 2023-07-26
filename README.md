@@ -67,21 +67,21 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 2 - Leaf Health Visualiser
 
-- To satisy business requirement 1: The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
+- To satisfy business requirement 1: The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
   - Checkbox 1 - Difference between average and variability image
   - Checkbox 2 - Difference between average leaf presenting powdery mildew and average healthy leaf
   - Checkbox 3 - Image Montage
 
 ### Page 3 - Mildew Detector
 
-- To satisy business requirement 2: The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
-  - Link to dataset where user can download a random sample of images for live prediction.
-  - File uploader widget for user to upload sample images for live prediction.
+- To satisfy business requirement 2: The client is interested in predicting if a cherry leaf is healthy or contains powdery mildew.
+  - Link to a dataset where users can download a random sample of images for live prediction.
+  - File uploader widget for users to upload sample images for live prediction.
     - Sample image(s) displayed with accompanying image dimensions.
-  - The outcome of predictive analysis stating the likelihood of sample leaf exhibiting mildew or being in a healthy state.
-    - Propability results in graphical form.
+  - The outcome of predictive analysis: stating the likelihood of the sample leaf exhibiting mildew or being in a healthy state.
+    - Probability results in graphical form.
   - Table containing sample name and prediction.
-  - Link to download csv file of predictions performed during session.
+  - Link to download .csv file of predictions performed during the session.
 
 ### Page 4 - Project Hypothesis and Validation
 
@@ -104,7 +104,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Fixed Bugs
 
-- The depolyed app's Mildew Detector was producing the following error when attempting to predict on new images: **AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'**.This ws resolved by specifying a different version of Pillow, **Pillow==9.5.0**, in the requirements.txt file as instructed in this [StackOverflow](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias) article.
+- The deployed app's Mildew Detector was producing the following error when attempting to make predictions with new images: **AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'**.This was resolved by specifying a different version of Pillow, **Pillow==9.5.0**, in the requirements.txt file as instructed in this [StackOverflow](https://stackoverflow.com/questions/76616042/attributeerror-module-pil-image-has-no-attribute-antialias) article.
 
 ### Unfixed Bugs
 
@@ -119,9 +119,9 @@ To save time in this process, the IT team suggested an ML system that detects in
 
   1. Create new app via CLI so that heroku-20 stack is specified, which is compatible with python 3.8.12: **$ heroku create rm-mildew-app --stack heroku-20 --region eu**
   2. At the Deploy tab, select GitHub as the deployment method.
-  3. Select repository name and click Search. Once it is found, click Connect.
+  3. Select the repository name and click Search. Once it is found, click Connect.
   4. Select Main and Deploy Branch.
-  5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access App.
+  5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access the App.
   6. Add large files not required for the app to the .slugignore file.
 
 ## Main Data Analysis and Machine Learning Libraries
@@ -152,11 +152,11 @@ The following libraries and resources were used during the project (code example
 
 - **Jupyter Notebooks** was used to create and document the project stages and content.
 
-- **Streamlit** was used to build a multi-page app including a mildew detector that be viewed via a web browser.
+- **Streamlit** was used to build a multi-page app including a mildew detector that can be viewed via a web browser.
 
 ## Credits
 
-- Given their busiess case similarities, Walkthrough Project 1: Malaria Detector was followed to conduct the study, build the ML model and construct the Streamlit site.
+- Given their business case similarities, Walkthrough Project 1: Malaria Detector was followed to conduct the study, build the ML model and construct the Streamlit site.
 
 ### Content
 
