@@ -6,3 +6,4 @@ README.md
 .gitpod.dockerfile
 .gitpod.yml
 mildew_app_pages/__pycache__*
+assets/images

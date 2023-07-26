@@ -87,6 +87,8 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Page 5 - ML Performance Metrics
 
+xxxxxxxxxxxxxxxxxxxx
+
 ## Bugs
 
 ### Fixed Bugs
@@ -113,7 +115,25 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ## Main Data Analysis and Machine Learning Libraries
 
-- Here you should list the libraries used in the project and provide an example(s) of how you used these libraries.
+The following libraries and resources were used during the project (code examples provided):
+
+- **Kaggle** was both the source and means of downloading the project dataset:
+  [kaggle_data_retrieval](/workspaces/mildew-detection-in-cherry-leaves/assets/images/kaggle_dataset_download_image.png)
+
+- **Numpy/Pandas** were used to convert images to arrays to allow classification predictions on new images, and
+
+- **Matplotlib** was used to display graphical information and to construct the image montages throughout the project, such as this snippet from the image_montage function:
+  [matplotlib_image_montage_code](/workspaces/mildew-detection-in-cherry-leaves/assets/images/matplotlib_image_montage_code_snippet.png)
+
+- **Seaborn** was used for data visualisation, namely displaying and styling graphical data e.g.:
+  [seaborn_styling_example_code](/workspaces/mildew-detection-in-cherry-leaves/assets/images/seaborn_styling_example_code.png)
+
+- **TensorFlow** was used to load image files into an array (tensor) to enable data analysis and image processing as well as model creation and training e.g.:
+  [tensorflow_array_code_example](/workspaces/mildew-detection-in-cherry-leaves/assets/images/tensorflow_array_code_example.png)
+
+  [tensorflow_keras_model_creation_code_example](/workspaces/mildew-detection-in-cherry-leaves/assets/images/tensorflow_keras_model_creation_code_example.png)
+
+  [tensorflow_keras_model_training_code_example](/workspaces/mildew-detection-in-cherry-leaves/assets/images/tensorflow_keras_model_training_code_example.png)
 
 ## Credits
 
