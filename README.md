@@ -128,7 +128,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 The following libraries and resources were used during the project (code examples provided):
 
-- **Kaggle** was both the source of and means of downloading the project dataset:
+- **Kaggle** was both the source and means of downloading the project dataset:
 
   ![kaggle_data_retrieval](./assets/images/kaggle_dataset_download_image.png)
 
@@ -147,7 +147,7 @@ The following libraries and resources were used during the project (code example
 
   ![seaborn_styling_example_code](./assets/images/seaborn_styling_example_code.png)
 
-- **TensorFlow** was used to load image files into an array (tensor) to enable data analysis and image processing:
+- **TensorFlow/Keras** were used to load image files into an array (tensor) to enable data analysis and image processing:
 
   ![tensorflow_array_code_example](./assets/images/tensorflow_array_code_example.png)
 
@@ -158,6 +158,10 @@ The following libraries and resources were used during the project (code example
   And model training:
 
   ![tensorflow_keras_model_training_code_example](./assets/images/tensorflow_keras_model_training_code_example.png)
+
+- **PIL/Pillow** was used to provide the python interpreter with image editing capabilities required for the file upload section of the Mildew Detector:
+
+  ![pil_code_example](./assets/images/pil_code_example.png)
 
 - **Jupyter Notebooks** was used to create and document the project stages and content.
 
@@ -177,4 +181,4 @@ The following libraries and resources were used during the project (code example
 
 ## Acknowledgements (optional)
 
-- Thank the people that provided support throughout this project.
+- I'd like to thank my mentor, Precious Ijege, @Precious_Mentor
