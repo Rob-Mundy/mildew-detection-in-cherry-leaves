@@ -8,4 +8,5 @@ streamlit==0.85.0
 tensorflow-cpu==2.6.0
 keras==2.6.0
 
+protobuf==3.20
 Pillow==9.5.0
