@@ -172,7 +172,7 @@ The following libraries and resources were used during the project (code example
 
 ## Credits
 
-- Given their business case similarities, Walkthrough Project 1: Malaria Detector was followed to conduct the study, build the ML model and construct the Streamlit site.
+- Given their business case similarities, Walkthrough Project 1: Malaria Detector was followed and replicated to conduct the study, build the ML model and construct the Streamlit site.  Much of the code was replicated from the project and tailored as required.
 
 ### Content
 
