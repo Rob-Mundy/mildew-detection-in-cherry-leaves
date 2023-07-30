@@ -133,6 +133,7 @@ The following libraries and resources were used during the project (code example
   ![kaggle_data_retrieval](./assets/images/kaggle_dataset_download_image.png)
 
 - **Numpy/Pandas** were used to convert images to arrays to allow classification predictions on new images:
+
   ![numpy_array_example](./assets/images/numpy_code_example.png)
 
   And create DataFrames with series that can be interpreted by Matplotlib to visualise aspects such as label (class) distribution amongst image sets:
@@ -146,6 +147,10 @@ The following libraries and resources were used during the project (code example
 - **Seaborn** was used for data visualisation, namely displaying and styling graphical data e.g.:
 
   ![seaborn_styling_example_code](./assets/images/seaborn_styling_example_code.png)
+
+- **Plotly** was also used for data visualisation inside the Mildew Detector's plot_predictions_probabilities function:
+
+  ![plotly_code_example](./assets/images/plotly_code_example.png)
 
 - **TensorFlow/Keras** were used to load image files into an array (tensor) to enable data analysis and image processing:
 
