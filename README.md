@@ -22,8 +22,6 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 ### Validation
 
-## The rationale to map the business requirements to the Data Visualisations and ML tasks
-
 - Business Requirement 1: The client is interested in conducting a study to visually differentiate a healthy cherry leaf from one with powdery mildew.
   - "Mean" and "standard deviation" images will be displayed for healthy leaves and those presenting powdery mildew.
   - The difference between an average healthy leaf and the average mildew-infected leaf will be displayed.
